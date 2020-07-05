@@ -43,7 +43,7 @@ We build train and test by randomly splitting in the ratio of 70:30 or 80:20 wha
 # 3. Feature selection
 
 ## 3.1 Basic Feature Extraction (before cleaning)
-f| freq_qid1 = Frequency of qid1's                                                                                                                                                                      |
+| freq_qid1 = Frequency of qid1's                                                                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | freq_qid2 = Frequency of qid2's                                                                                                                                                                      |
 | q1len = Length of q1                                                                                                                                                                                 |

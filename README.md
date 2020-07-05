@@ -43,14 +43,16 @@ We build train and test by randomly splitting in the ratio of 70:30 or 80:20 wha
 # 3. Feature selection
 
 ## 3.1 Basic Feature Extraction (before cleaning)
-freq_qid1 = Frequency of qid1's
-freq_qid2 = Frequency of qid2's
-q1len = Length of q1
-q2len = Length of q2
-q1_n_words = Number of words in Question 1
-q2_n_words = Number of words in Question 2
-word_Common = (Number of common unique words in Question 1 and Question 2) word_Total =(Total num of words in Question 1 + Total num of words in Question 2) word_share = (word_common)/(word_Total)
-freq_q1+freq_q2 = sum total of frequency of qid1 and qid2 freq_q1-freq_q2 = absolute difference of frequency of qid1 and qid2
+f| freq_qid1 = Frequency of qid1's                                                                                                                                                                      |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| freq_qid2 = Frequency of qid2's                                                                                                                                                                      |
+| q1len = Length of q1                                                                                                                                                                                 |
+| q2len = Length of q2                                                                                                                                                                                 |
+| q1_n_words = Number of words in Question 1                                                                                                                                                           |
+| q2_n_words = Number of words in Question 2                                                                                                                                                           |
+| word_Common = (Number of common unique words in Question 1 and Question 2) word_Total =(Total num of words in Question 1 + Total num of words in Question 2) word_share = (word_common)/(word_Total) |
+| freq_q1+freq_q2 = sum total of frequency of qid1 and qid2 freq_q1-freq_q2 = absolute difference of frequency of qid1 and qid2                                                                        |
+|                                                                                                                                                                                                      |
 
 ## 3.2 Advanced Feature Extraction (NLP and Fuzzy Features)
 
